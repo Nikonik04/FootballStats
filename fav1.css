@@ -1,0 +1,67 @@
+.profile-link {
+    text-decoration: none; /* Убрать подчеркивание ссылки */
+    background-color: #0D58A6; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px 20px; /* Отступы вокруг текста */
+    border-radius: 5px; /* Скругление углов */
+    display: inline-block; /* Ссылка как блочный элемент для задания отступов */
+    text-align: center; /* Выравнивание текста по центру */
+    transition: background-color 0.3s; /* Плавное изменение цвета при наведении */
+}
+
+.profile-link:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
+}
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333; /* Границы таблицы, заголовков и ячеек */
+}
+
+th, td {
+    padding: 10px; /* Отступы внутри ячеек */
+    text-align: left; /* Выравнивание текста по левому краю */
+}
+
+th {
+    background-color: #0D58A6; /* Фон для заголовков */
+    color: #fff; /* Цвет текста в заголовках */
+}
+.but {
+    background-color: #0D58A6;
+    color: #fff; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы вокруг текста */
+    border: none; /* Убрать границу */
+    border-radius: 5px; /* Скругление углов */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.but {
+    background-color: #0D58A6;
+}
+.choose_sort{
+    background-color: #0D58A6;
+    color: #fff; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы вокруг текста */
+    border: none; /* Убрать границу */
+    border-radius: 5px; /* Скругление углов */
+    cursor: pointer;
+    text-decoration: none;
+}
+.image{
+    height: 50px;
+    width: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}

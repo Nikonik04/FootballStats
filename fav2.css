@@ -1,0 +1,65 @@
+.profile-link {
+    text-decoration: none;
+    background-color: #FFA900;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.profile-link:hover {
+    background-color: #FFA900;
+}
+
+body {
+    background-color: #87F03C; /* Зеленый фон */
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333; /* Границы таблицы, заголовков и ячеек */
+}
+
+th, td {
+    padding: 10px; /* Отступы внутри ячеек */
+    text-align: left; /* Выравнивание текста по левому краю */
+}
+
+th {
+    background-color: #FFA900; /* Фон для заголовков */
+    color: #fff; /* Цвет текста в заголовках */
+}
+.but {
+    background-color: #FFA900; /* Желтая кнопка */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.choose_sort {
+    background-color: #FFA900; /* Желтая кнопка */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.image{
+    height: 50px;
+    width: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}

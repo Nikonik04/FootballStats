@@ -1,0 +1,75 @@
+body {
+    background-color: #87F03C;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background-color: #87F03C;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    width: 150px;
+    box-sizing: border-box;
+    background-color: #DFFFAF; /* Светло-зеленый фон для текстовых полей */
+}
+
+input[type="submit"] {
+    background-color: #008B8B; /* Зеленый цвет для кнопки */
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #008080; /* Темно-зеленый цвет при наведении на кнопку */
+}
+
+a {
+    color: #008B8B; /* Зеленый цвет для ссылок */
+    text-decoration: none;
+}
+select{
+    background-color: #008B8B; /* Зеленый цвет фона кнопки */
+    color: #fff; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы вокруг текста */
+    border: none; /* Убрать границу */
+    border-radius: 5px; /* Скругление углов */
+    cursor: pointer;
+    text-decoration: none;
+}
+.but {
+    background-color: #008B8B; /* Зеленый цвет фона кнопки */
+    color: #fff; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы вокруг текста */
+    border: none; /* Убрать границу */
+    border-radius: 5px; /* Скругление углов */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.but {
+    background-color: #005F5F; /* Зеленый цвет фона кнопки при наведении */
+}
